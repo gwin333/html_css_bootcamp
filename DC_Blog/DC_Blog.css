@@ -1,0 +1,5 @@
+.footerList li{
+    display: in-line;
+    float: left;
+    list-style: none;
+}
