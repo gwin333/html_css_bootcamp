@@ -1,5 +1,41 @@
-.footerList li{
-    display: in-line;
-    float: left;
+body {
+    margin: 15mm 35mm;
+}
+
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainSub {
+    text-align: center;
+}
+
+.button {
+    background-color: #42c8f4;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold
+}
+
+ul li {
+    color: gray;
     list-style: none;
+    display: inline;
+    padding: 10px 15px;
+}
+
+ul#topList{
+    float: right;
+}
+
+.in-line-block-element *{
+    display: inline;
+}
+
+ul#topList{
+    text-align: right;
 }
